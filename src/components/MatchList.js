@@ -14,7 +14,12 @@ Toggle the answer when you are ready.
 
 export default function MatchList(props) {
   const matches = matchData.map((match)=>{
-   return <Match players={match.players} winner={match.winner} scoreDifference={match.scoreDifference}/>
+   return (
+   <Match 
+    key={match.matchNumber} 
+    players={match.players} 
+    winner={match.winner} 
+    scoreDifference={match.scoreDifference} />);
   });
 
   return (
