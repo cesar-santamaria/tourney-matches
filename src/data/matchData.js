@@ -36,3 +36,5 @@ const matchData = [
     scoreDifference: undefined
   }
 ];
+
+module.exports = matchData;

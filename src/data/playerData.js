@@ -35,3 +35,5 @@ const playerData = {
     lastName: "Herrera",
   }
 };
+
+module.exports = playerData;
